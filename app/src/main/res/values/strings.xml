@@ -60,4 +60,38 @@
     <string name="cbtnUpdate">Update</string>
     <string name="cbtnDelete">Delete</string>
 
+
+    <string name="pay_lkr_1500_00">Pay LKR.1500.00</string>
+    <string name="lkr_1500_00">LKR 1500.00</string>
+    <string name="the_payment_is_completed">Item is Added.</string>
+    <string name="thank_you"><b>Thank You!</b></string>
+
+    <string name="Sentemail">We have sent an email to \n <b>mobileaccessories@gmail.com</b> as a receipt.</string>
+
+    <string name="name_of_item">Name of Item</string>
+    <string name="category_name">Category Name</string>
+    <string name="item_code">Item Code</string>
+    <string name="quantity">Quantity</string>
+    <string name="discription">Description</string>
+    <string name="btn_view_more">View</string>
+    <string name="txt_item_price_500">$500</string>
+    <string name="txt_item_description">Google has slashed $200 off the price of the Pixel 3 and Pixel 3 XL</string>
+    <string name="item_name"><b>Pixel 3 XL</b></string>
+
+
+    <string name="add_item"><b>ADD ITEM</b></string>
+    <string name="screensize">6.3\"</string>
+    <string name="camera">12MP</string>
+    <string name="ram">4GB RAM</string>
+    <string name="battery">3430mAh</string>
+    <string name="sound">Loudspeaker 3.5mm jack</string>
+    <string name="features">Features</string>
+    <string name="item_desctiption">Released 2018, November 184g, 7.9mm thickness Android 9.0 64/128GB storage, no card slot</string>
+    <string name="item_information">Google Pixel 3 XL</string>
+    <string name="buy">Buy</string>
+    <string name="item_desctiption_title"><b>ITEM DESCRIPTION</b></string>
+    <string name="item_des">Description</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
 </resources>
