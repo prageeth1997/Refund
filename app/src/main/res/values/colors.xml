@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B20BB</color>
+    <color name="colorPrimaryDark">#031781</color>
+    <color name="colorAccent">#4E57E2</color>
+    <color name="clr1">#000000</color>
+    <color name="fontColor">#F2F5F5</color>
+    <color name="mainClr">#051EC0</color>
+    <color name="btnclr1">#4E57E2</color>
+    <color name="btnclr2">#ff3333</color>
+    <color name="linkColor">#FF051EC0</color>
+    <color name="statusAndAdminote">#FF3F7A04</color>
+</resources>
