@@ -55,7 +55,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/rlbl1"
+            android:text="@string/reason"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -67,13 +67,13 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/view2"
+            android:text="@string/refundReason"
             android:textSize="20dp"
 
             app:layout_constraintBottom_toBottomOf="parent"
@@ -90,7 +90,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/rlbl3"
+            android:text="@string/description"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -99,13 +99,13 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="136dp"
-            android:layout_height="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/view3"
+            android:text="@string/refundDescription"
             android:textSize="20dp"
 
             app:layout_constraintEnd_toEndOf="parent"
@@ -120,7 +120,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/view5"
+            android:text="@string/statusH"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -138,7 +138,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/view6"
+            android:text="@string/statusN"
             android:textColor="@color/statusAndAdminote"
             android:textSize="20dp"
 
@@ -157,7 +157,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/view7"
+            android:text="@string/adminNote"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -175,7 +175,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/view8"
+            android:text="@string/adminNote2"
             android:textColor="@color/statusAndAdminote"
             android:textSize="20dp"
 
@@ -196,7 +196,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/radiustext"
             android:onClick="Update"
-            android:text="@string/viewbtn1"
+            android:text="@string/updateButton"
             android:textColor="@color/fontColor"
             android:textColorHighlight="@color/clr1" />
 
@@ -210,7 +210,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/radiustext2"
             android:onClick="delete"
-            android:text="@string/viewbtn2"
+            android:text="@string/deleteButton"
             android:textColor="@color/fontColor" />
 
     </LinearLayout>

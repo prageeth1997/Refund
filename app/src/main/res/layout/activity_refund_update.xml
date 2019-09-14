@@ -22,8 +22,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-
-            android:id="@+id/textView1"
+            android:id="@+id/textView16"
             android:layout_width="136dp"
             android:layout_height="26dp"
             android:layout_marginStart="16dp"
@@ -41,6 +40,43 @@
             app:layout_constraintVertical_bias="0.011"/>
 
         <TextView
+            android:id="@+id/textView18"
+            android:layout_width="136dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/itemID"
+            android:textSize="20dp"
+            android:textStyle=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.011" />
+
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="136dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/reason"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.011"/>
+
+        <TextView
             android:id="@+id/textView7"
             android:layout_width="391dp"
             android:layout_height="match_parent"
@@ -48,7 +84,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/itemID"
+            android:text="@string/reasonHint"
             android:textSize="20dp"
 
             app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +102,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/rlbl1"
+            android:text="@string/description"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -83,12 +119,11 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:hint="@string/hint1"
+            android:hint="@string/descriptionHint"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:text="@string/updateRtxt2" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView3"
@@ -97,7 +132,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/rlbl3"
+            android:text="@string/type"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -147,6 +182,7 @@
                 android:layout_weight="1"
 
                 android:ems="10"
+                android:hint="@string/amountHint"
                 android:inputType="textPersonName"
                 android:visibility="invisible"
                 tools:visibility="visible" />
@@ -159,7 +195,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:text="@string/ramount"
+            android:text="@string/maxAmount"
             android:visibility="invisible"
             tools:visibility="visible" />
 
@@ -170,7 +206,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/rlbl4"
+            android:text="@string/imageUpload"
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -201,7 +237,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:layout_weight="1"
-
+                android:text="@string/imageLink"
                 android:visibility="invisible"
                 tools:visibility="visible" />
 
@@ -213,19 +249,14 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="@string/rsize"
+            android:text="@string/maxImageSize"
             android:visibility="invisible"
             tools:visibility="visible" />
 
-        <EditText
-            android:id="@+id/editText9"
+        <TextView
+            android:id="@+id/textView15"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name"
-            android:visibility="invisible"
-            tools:visibility="visible" />
+            android:layout_height="46dp" />
 
         <Button
             android:id="@+id/button4"
@@ -234,7 +265,7 @@
             android:layout_gravity="right"
             android:background="@drawable/radiustext"
             android:onClick="refundUpdate"
-            android:text="@string/rUpdtbtn1"
+            android:text="@string/updateButton"
             android:textColor="@color/fontColor" />
 
     </LinearLayout>
