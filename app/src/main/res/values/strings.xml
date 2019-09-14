@@ -59,6 +59,7 @@
     <string name="cbtnSubmit">Submit</string>
     <string name="cbtnUpdate">Update</string>
     <string name="cbtnDelete">Delete</string>
+    <string name="cbtnReset">Reset</string>
 
 
     <string name="pay_lkr_1500_00">Pay LKR.1500.00</string>

@@ -194,10 +194,21 @@
             />
 
         <Button
-            android:id="@+id/btnsubmit"
+            android:id="@+id/btnreset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/cbutton_rounded_profd"
+            android:text="@string/cbtnReset"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/cbutton_rounded"
             android:text="@string/cbtnSubmit"

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "856217855136",
+    "firebase_url": "https://refund-bf71c.firebaseio.com",
+    "project_id": "refund-bf71c",
+    "storage_bucket": "refund-bf71c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856217855136:android:42b23ec440c35a882e15c5",
+        "android_client_info": {
+          "package_name": "com.example.refund"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856217855136-lpjsaanfqb5jpopr7boq750lf0gfjp59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.refund",
+            "certificate_hash": "086c31b8323c48b4d67cdd965d52276dd2f7acc2"
+          }
+        },
+        {
+          "client_id": "856217855136-55otrtvc9ei1u4bsgefqev3e5ns3k4lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiJ2C4ZyZplJQPCKuGnKMaLNzdwt5lLnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856217855136-55otrtvc9ei1u4bsgefqev3e5ns3k4lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
