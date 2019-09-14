@@ -16,7 +16,7 @@ public class myorders extends AppCompatActivity {
 
     public void refund(View view) {
 
-        Intent intent2 = new Intent(myorders.this , refund.class);
+        Intent intent2 = new Intent(myorders.this , gMainActivity.class);
         startActivity(intent2);
     }
     public void refundUpdate(View view) {
