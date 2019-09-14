@@ -2,51 +2,45 @@
     <string name="app_name">Refund</string>
 
     <string name="search">Search</string>
-    <string name="lbl1">Mobile Phone Cover</string>
-    <string name="lbl2">Item Price</string>
-    <string name="lbl3">Order Date</string>
-    <string name="btn1">Confirm Order Received</string>
-    <string name="btn2">Request Refund</string>
-    <string name="lbl4">Mobile Phone Cover</string>
+    <string name="itemName">Mobile Phone Cover</string>
+    <string name="itemPrice">Item Price</string>
+    <string name="itemPrice2">Rs 320.00</string>
+    <string name="itemOrderedDate">Order Date</string>
+    <string name="itemOrderedDate2">21/08/2019</string>
+    <string name="confirmOrderReceived">Confirm Order Received</string>
+    <string name="refundRequest">Request Refund</string>
 
-    <string name="hint1">Enter the Reason</string>
-    <string name="hint2">Enter the Description</string>
-    <string name="hint3">Enter the Amount</string>
-    <string name="rlbl1">Reason</string>
-    <string name="rlbl2">Description</string>
-    <string name="rlbl3">Type</string>
-    <string name="rlbl4">Upload Image</string>
-    <string name="rlbl5">Description</string>
-    <string name="rlbl6">Type</string>
-    <string name="rlink">C:destop/newfolder/picture1.jpeg</string>
-    <string name="ramount">Maximum amount is : Rs52.50</string>
-    <string name="rsize">Maximum size is 2MB</string>
-    <string name="rbtn1">SUBMIT</string>
-    <string name="radio1">Full Refund</string>
-    <string name="radio2">Partial Refund</string>
-    <string name="click">Add image</string>
-    <string name="rUpdtbtn1">update</string>
-
-    <string name="updateRtxt1">Item Damaged</string>
-    <string name="updateRtxt2">When the package recieve it was damaged</string>
-    <string name="sfv">update</string>
-    <string name="title_activity_view_refund_details">viewRefundDetails</string>
-    <string name="title_activity_view_details">viewDetails</string>
-
-
-    <string name="view1">Item Damaged</string>
-    <string name="view2">When the package recieve it was damaged</string>
-    <string name="view3">Full Refund</string>
-    <string name="view4">C:destop/newfolder/picture1.jpeg</string>
-    <string name="view5">Refund Status</string>
-    <string name="view6">Progress</string>
-    <string name="view7">Admin Note</string>
-    <string name="view8">Waiting for refund</string>
-    <string name="viewbtn1">Update</string>
-    <string name="viewbtn2">Delete</string>
-
+    <string name="updateButton">update</string>
+    <string name="submitButton">SUBMIT</string>
+    <string name="deleteButton">Delete</string>
 
     <string name="itemID">itemID</string>
+    <string name="reason">Reason</string>
+    <string name="reasonHint">Enter the Reason</string>
+    <string name="description">Description</string>
+    <string name="descriptionHint">Enter the Description</string>
+    <string name="type">Type</string>
+    <string name="radio1">Full Refund</string>
+    <string name="radio2">Partial Refund</string>
+    <string name="amountHint">Enter the Amount</string>
+    <string name="maxAmount">Maximum amount is : Rs52.50</string>
+
+    <string name="imageUpload">Upload Image</string>
+    <string name="addImageLink">Add image</string>
+    <string name="imageLink">C:destop/newfolder/picture1.jpeg</string>
+    <string name="maxImageSize">Maximum size is 2MB</string>
+
+
+    <string name="refundReason">Item Damaged</string>
+    <string name="refundDescription">When the package receive it was damaged</string>
+    <string name="statusH">Refund Status</string>
+    <string name="statusN">Waiting for refund</string>
+    <string name="adminNote">Admin Note</string>
+    <string name="adminNote2">None</string>
+
+
+    <string name="title_activity_view_refund_details">viewRefundDetails</string>
+    <string name="title_activity_view_details">viewDetails</string>
 
 
     <string name="cname">Name</string>
